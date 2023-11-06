@@ -1,11 +1,10 @@
 #include <iostream>
 #include <string>
+#include "atoi.h"
 
-int atoi(const char* str)
+int main()
 {
-    int result = 0;
-    int sign = 1;
-    int i = 0;
-
-    while(str[i]);
+    const char* str = "12345";
+    int num = atoi(str);
+    std::cout << num + 10 << std::endl;
 }
