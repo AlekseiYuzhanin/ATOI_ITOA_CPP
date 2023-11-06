@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
 #include "atoi.h"
+#include "itoa.h"
+
 
 int main()
 {
-    const char* str = "12345";
-    int num = atoi(str);
-    std::cout << num + 10 << std::endl;
+    return 0;
 }
