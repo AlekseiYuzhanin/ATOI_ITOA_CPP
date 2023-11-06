@@ -1,5 +1,5 @@
 #include <string>
-#include "itoa.h"
+#include "itoa.hpp"
 
 std::string itoa(int num)
 {

@@ -1,5 +1,5 @@
-#ifndef ITOA_H
-#define ITOA_H
+#ifndef ITOA_HPP
+#define ITOA_HPP
 #include <string>
 
 std::string itoa(int num);
